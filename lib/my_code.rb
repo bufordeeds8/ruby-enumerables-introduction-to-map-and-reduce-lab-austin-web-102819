@@ -27,4 +27,3 @@ def reduce_to_any_true (source_array)
   # [ false, nil, nil, nil]
   source_array.reduce { |beTrue, beFalse| beFalse || beTrue}
 end
-
