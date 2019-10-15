@@ -27,5 +27,4 @@ def reduce_to_any_true (source_array)
   # [ false, nil, nil, nil]
   source_array.reduce { |beTrue, beFalse| beFalse || beTrue}
 end
-# I have no idea whats going on here ^^
-reduce_to_any_true([ false, nil, nil, nil])
+
